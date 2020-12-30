@@ -1,0 +1,84 @@
+<view class="indexContainer">
+  <swiper class="banners" indicator-dots indicator-color="ivory" indicator-active-color="#000" >
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/nvsheng.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 图标导航栏 -->
+  <view class="navContainer">
+    <view class="navItem">
+      <text class="iconfont icon-home"></text>
+      <text>每日推荐</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-yinle"></text>
+      <text>歌单</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-paihangbang"></text>
+      <text>排行榜</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-diantai"></text>
+      <text>电台</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-02"></text>
+      <text>直播</text>
+    </view>
+  </view>
+  <!-- 推荐歌曲区域 -->
+  <view class="recommendContainer">
+    <view class="header">
+      <text class="tital">推荐歌曲</text>
+      <view>
+        <text>为你精心推荐</text>
+        <text class="more">查看更多</text>
+      </view>
+    </view>
+  <!-- 内容区 -->
+  <scroll-view enable-flex scroll-x>
+    <view class="scrollItem" >
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀</text>
+    </view>
+    <view class="scrollItem" >
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg"></image>
+      <text>李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀李小小妞最秀</text>
+    </view>
+  </scroll-view>  
+
+
+
+
+  </view>
+
+</view>
+
+
