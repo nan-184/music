@@ -29,34 +29,13 @@
 .navItem text{
   font-size: 26rpx;
 }
-
-/* 推荐歌曲区域 */
-.recommendContainer{
-  padding: 15rpx 20rpx;
-}
-.tital{
-  display: block;
-  margin: 10px 0;
-  color: #918982
-}
-.more{
-  display: block;
-  width: 150rpx;
-  height: 50rpx;
-  text-align: center;
-  font-size: 26rpx;
-  float: right;
-  border: 1px solid #000;
-  border-radius: 30rpx;
-  line-height: 50rpx;
-}
 scroll-view{
   display: flex;
+  height: 300rpx;
 }
 .scrollItem {
   width: 200rpx;
   padding: 10rpx 10rpx;
-
 }
 
 .scrollItem image{
@@ -73,7 +52,44 @@ display: -webkit-box;
 -webkit-line-clamp:2;
 }
 
+/* 热歌榜 */
+.hotmusic{
+margin: 10rpx  10rpx;
+height: 400rpx;
 
+}
+.lun{
+  width: 96%;
+  background-color: #c8c8c8;
+  border-radius: 10rpx;
+}
+.title{
+  padding: 0 10rpx;
+}
+.musicItem{
+display: flex;
+margin: 10rpx;
+}
+.text1{
+  width: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center
+}
+.text2{
+  height: 100rpx;
+  line-height: 100rpx;
+  /* text-align: center */
+  max-width: 400rpx;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+.musicItem image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10%;
+}
 
 
 

@@ -1,0 +1,18 @@
+.header{
+margin: 10rpx 20rpx;
+  
+}
+.title{
+display: block;
+margin-bottom: 10rpx;
+font-size: 32rpx;
+color: #777;
+}
+.more{
+  width: 180rpx;
+  height: 50rpx;
+  float: right;
+  text-align: center;
+  border: 1rpx solid #000;
+  border-radius: 30rpx;
+}
