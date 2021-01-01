@@ -41,11 +41,12 @@ Page({
     let topListData = await request('/top/list', {idx:index++})
     let topListItem = { name: topListData.playlist.name, tracks: topListData.playlist.tracks.slice(0,3)};
       resultArr.push(topListItem)
-    this.setData({
-      topList: resultArr
-    })
+    
+      this.setData({
+        topList: resultArr
+      })
     }
-
+    
 
   },
 
